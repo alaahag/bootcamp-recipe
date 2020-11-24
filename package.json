@@ -1,5 +1,5 @@
 {
-  "name": "exam",
+  "name": "bootcamp-recipe",
   "version": "1.0.0",
   "main": "server.js",
   "dependencies": {
@@ -15,7 +15,15 @@
     "start": "node server.js",
     "review": "node node_modules/elevation-pr/index.js"
   },
-  "author": "",
+  "author": "Ala Haj Yahya",
   "license": "ISC",
-  "description": ""
+  "description": "��#\u0000 \u0000b\u0000o\u0000o\u0000t\u0000c\u0000a\u0000m\u0000p\u0000-\u0000r\u0000e\u0000c\u0000i\u0000p\u0000e\u0000\r\u0000 \u0000",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alaahag/bootcamp-recipe.git"
+  },
+  "bugs": {
+    "url": "https://github.com/alaahag/bootcamp-recipe/issues"
+  },
+  "homepage": "https://github.com/alaahag/bootcamp-recipe#readme"
 }

@@ -11,6 +11,6 @@ class Renderer {
             content.append(template(this.data));
         }
         else
-            alert("Sorry, no match found");
+            alert("Sorry, no match found!");
     }
 }

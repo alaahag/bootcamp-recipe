@@ -2,8 +2,7 @@ const txt_search = $("#txt_search");
 const btn_search = $("#btn_search");
 const content = $(".content");
 
-const btnLoadDataClick = function()
-{
+const btnLoadDataClick = function(){
     $.get(`/recipes/${txt_search.val()}`, function(data)
     {
         if (data)

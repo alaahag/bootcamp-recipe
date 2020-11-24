@@ -13,7 +13,6 @@ app.use(express.static(path.join(__dirname, 'node_modules')));
 const router = require('./router.js');
 app.use('/', router);
 
-app.listen(port, ip, function()
-{
+app.listen(port, ip, function(){
     console.log(`server is running on IP: '${ip}', port: '${port}'`);
 });

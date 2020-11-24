@@ -5,7 +5,12 @@ class Renderer {
 
     render(){
         content.empty();
-        const template = Handlebars.compile($('#recipesData-template').html());
-        content.append(template(this.data));
+        if (this.data)
+        {
+            const template = Handlebars.compile($('#recipesData-template').html());
+            content.append(template(this.data));
+        }
+        else
+            alert("Sorry, no match found");
     }
 }

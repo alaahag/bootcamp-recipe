@@ -5,10 +5,7 @@ const content = $(".content");
 const btnLoadDataClick = function(){
     $.get(`/recipes/${txt_search.val()}`, function(data)
     {
-        if (data)
-            new Renderer(data).render();
-        else
-            alert("Sorry, no match found");
+        new Renderer(data).render();
     });
 };
 

@@ -4,7 +4,7 @@ const router = express.Router();
 
 router.get('/sanity', function(req, res){
     //200 = OK
-    res.send(200);
+    res.sendStatus(200);
 });
 
 router.get('/recipes/:ingredient', function(req, res){

@@ -70,7 +70,10 @@ img {
     font-family: 'Acme', sans-serif;
     margin-left: 15px;
     margin-right: 0;
-    padding: 15px;
+    padding-top: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 0;
     overflow: hidden;
     position: relative;
     border: 1px solid #fc5c65;
@@ -80,6 +83,7 @@ img {
     text-align: center;
     background-color: gold;
     border-radius: 5px 5px;
+    min-height: 506px;
 }
 
 .card * {
@@ -91,8 +95,6 @@ img {
     height: 100%;
     padding: 5px;
     position: relative;
-    transition: transform 0.5s ease;
-    cursor: pointer;
 }
 
 ul, h3 {
@@ -111,4 +113,5 @@ li {
 a {
     font-size: 18px;
     font-weight: bold;
+    text-decoration: none;
 }
